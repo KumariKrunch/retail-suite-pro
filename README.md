@@ -35,8 +35,6 @@ The repository is structured to cleanly separate core domain logic from independ
    cd retail-suite-pro
    ```
 
-````
-
 2.  **Start the infrastructure (Database, etc.):**
 
     ```bash
@@ -62,4 +60,3 @@ We welcome contributions\! Whether you're fixing bugs, optimizing Rust crates, o
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](https://www.google.com/search?q=LICENSE) file for details.
-````
