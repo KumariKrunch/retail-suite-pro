@@ -4,6 +4,7 @@ members = ["crates/*", "services/store-api"]
 
 [workspace.dependencies]
 axum = { version = "0.8.8" }
+config = { version = "0.15.22", features = ["yaml"] }
 tokio = { version = "1.51.0", default-features = false, features = [
   "macros",
   "rt-multi-thread",
@@ -30,3 +31,4 @@ tower-http = { version = "0.6.8", default-features = false, features = [
   "cors",
   "trace",
 ] }
+shared-kernel = { path = "./crates/shared-kernel/" }
